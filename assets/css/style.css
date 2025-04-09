@@ -277,3 +277,57 @@ a {
   font-size: 1rem;
   font-weight: 500;
 }
+/* ====================FEATURES=================== */
+.feature {
+  margin-top: 70px;
+  /* background: #1ebfc1; */
+}
+.feature .body-feature {
+  max-width: 1024px;
+  padding: 60px 0;
+}
+.feature .top-title {
+  color: #767e7e;
+  font-size: 12px;
+  font-weight: 700;
+}
+.feature .heading-lv2 {
+  margin-top: 18px;
+  width: 577px;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33;
+}
+.feature .desc {
+  margin-top: 18px;
+  margin-bottom: 80px;
+  max-width: 590px;
+  color: #767e7e;
+  font-size: 1.8rem;
+}
+.feature .feature-list {
+  display: flex;
+  justify-content: space-between;
+}
+.feature .feature-list .item-title {
+  margin-top: 26px;
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.feature .feature-list .item-desc {
+  color: #9da6a5;
+  margin-top: 16px;
+  font-size: 1.6rem;
+  line-height: 1.69;
+}
+.feature .item:first-child .item-desc {
+  max-width: 168px;
+}
+.feature .item:nth-child(2) .item-desc {
+  max-width: 223px;
+}
+.feature .item:nth-child(3) .item-desc {
+  max-width: 224px;
+}
